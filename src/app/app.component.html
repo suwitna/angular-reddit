@@ -15,10 +15,15 @@
           class="ui positive right floated button">
     Submit link
   </button>
+
+  <!-- start adding here -->
+  <div class="div-votes">
+    <div class="ui grid posts">
+      <app-article *ngFor="let article of articles" [article]="article">
+      </app-article>
+    </div>
+  </div>
 </form>
 
-<!-- start adding here -->
-<div class="ui grid posts">
-  <app-article *ngFor="let article of articles" [article]="article">
-  </app-article>
-</div>
+
+

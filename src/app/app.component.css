@@ -17,13 +17,9 @@
 }
 
 .ui.grid>.row {
-    top: 50px;
-    left: 167%;
-    background-color: beige;
+    top: 60px;
+    left: 0%;
+    /*background-color:tomato;*/
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.ui.statistic:last-child {
-    background-color: tomato;
 }

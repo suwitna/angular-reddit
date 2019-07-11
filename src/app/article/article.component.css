@@ -1,0 +1,9 @@
+.four.wide.column.center.aligned.votes {
+    background-color: darkseagreen;
+    padding: 15px;
+    border-radius: 3px;
+    
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
