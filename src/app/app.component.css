@@ -1,0 +1,29 @@
+.form {
+    top: 10px;
+    left: 30%;
+    width: 40%;
+    height: 265px;
+    background-color: beige;
+}
+
+.div .div-votes {
+    left: 1000px;
+}
+.ui.grid {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 350px;
+    left: 35%;
+}
+
+.ui.grid>.row {
+    top: 50px;
+    left: 167%;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ui.statistic:last-child {
+    background-color: tomato;
+}
