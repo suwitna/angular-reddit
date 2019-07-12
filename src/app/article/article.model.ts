@@ -20,7 +20,6 @@ export class Article {
     domain(): string {
       try {
         const domainAppPath: string = this.link.split('//')[1];
-
         return domainAppPath.split('/')[0];
 
       } catch (err) {
